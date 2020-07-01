@@ -9,7 +9,7 @@
 https://chocolatey.org/install
   * Windows 7+ / Windows Server 2003+
   * PowerShell v2+
-  * .NET Framework 4+ 
+  * .NET Framework 4+
 
 PowerShell 관리자 권한 실행 후 명령어 입력
 ```
@@ -37,7 +37,7 @@ brew cask install vagrant
 ```
 
 ## 3. VirtualBox 다운로드 및 설치
-- 설치 파일 및 패키지
+- 설치 파일 및 패키지(수동설치)
 https://www.virtualbox.org/wiki/Downloads  
 
 - Windows
@@ -50,8 +50,8 @@ choco install virtualbox
 brew cask install virtualbox
 ```
 
-> 참고 : `VirtualBox Extension Pack`은 choco 패키지 관리자로 최신버전이 설치되지 않기 때문에 직접 다운로드 : [VirtualBox Extension Pack 다운 링크](https://download.virtualbox.org/virtualbox/6.1.10/Oracle_VM_VirtualBox_Extension_Pack-6.1.10.vbox-extpack)
-
+> 참고 : `VirtualBox Extension Pack`은 choco 패키지 관리자로 최신버전이 설치되지 않기 때문에 직접 다운로드
+[VirtualBox Extension Pack 다운 링크](https://download.virtualbox.org/virtualbox/6.1.10/Oracle_VM_VirtualBox_Extension_Pack-6.1.10.vbox-extpack)
 
 ## 4. Vagrant
 
@@ -61,7 +61,7 @@ vagrant plugin install vagrant-hostmanager
 vagrant plugin install vagrant-disksize
 ```
 
-> 참고 : vagrant-hostmanager : guest 머신의 hosts 파일을 관리 / 
+> 참고 : vagrant-hostmanager : guest 머신의 hosts 파일을 관리 / vagrant-disksize : guest 머신의 디스크 사이즈 관리
 
 ```
 vagrant plugin list
@@ -83,7 +83,7 @@ cd kube
 > Master 최소 RAM 요구사항: 1536MB  
 > Node 최소 RAM 요구사항: 1024MB
 
-> 참고 : https://kubernetes.io/docs/setup/best-practices/cluster-large/#size-of-master-and-master-components
+- 참고 : https://kubernetes.io/docs/setup/best-practices/cluster-large/#size-of-master-and-master-components
 
 Vagrantfile 파일 작성
 

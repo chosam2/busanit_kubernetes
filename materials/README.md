@@ -1,7 +1,5 @@
 # 쿠버네티스 클러스터 구성 자동화
 
-## [00_ssh_client](./00_ssh_client.md)
-
 ## [01-vagrant.md](./01-vagrant.md)
 
 ## [02-kubespray.md](./02-kubespray.md)
@@ -10,4 +8,8 @@
 
 ## [04-rook-ceph.md](./04-rook-ceph.md)
 
-## [resource-apigroup-shortname.md](./resource-apigroup-shortname.md)
+## [97_ssh_client](./97_ssh_client.md)
+
+## [98-yaml-indent.md](./98-yaml-indent.md)
+
+## [99-resource-apigroup-shortname.md](./99-resource-apigroup-shortname.md)
