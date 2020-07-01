@@ -33,11 +33,4 @@ Ansible, Terraform 사용률이 꾸준히 증가하는 추세
 
 ## Vagrant
 
-### 소개
-
-- 
-
 ## Ansible
-
-### 소개
-
